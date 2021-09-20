@@ -1,0 +1,45 @@
+.attribution{font-size:11px;text-align:center}
+.attribution a{color:#3e52a3}
+:root{--light-blue:hsl(245, 75%, 52%);--dark-blue:hsl(223, 47%, 23%);--white-1:hsl(225, 100%, 94%);--white-2:hsl(225, 100%, 98%);--dark:hsl(224, 23%, 55%)}
+*,::after,::before{margin:0;padding:0;box-sizing:border-box}
+img{max-width:100%}
+html{font-size:62.5%}
+body{background-color:var(--white-1);background-image:url(images/pattern-background-desktop.svg);background-size:contain;background-position:top;background-repeat:no-repeat;font-family:"Red Hat Display",sans-serif;display:flex;justify-content:center;align-items:center;gap:2rem;flex-direction:column;min-height:100vh}
+.para{font-size:1.6rem;color:var(--dark)}
+.card{overflow:hidden;border-radius:2rem;background-color:#fff;max-width:449px}
+.card__details{padding:0 4.3rem}
+.card__details>*{margin:4rem 0}
+.card__details .description{text-align:center}
+.card__details .description .title{font-size:3rem;font-weight:900;color:var(--dark-blue);margin-bottom:1.5rem}
+.card__details .description p{line-height:1.5;font-weight:400}
+.card__details .products-box .product{display:flex;justify-content:center;place-items:center;background-color:var(--white-2);border-radius:1rem;padding:2rem}
+@media screen and (max-width:320px){
+.card__details .products-box .product{flex-direction:column;gap:2rem}
+}
+.card__details .products-box .product__img{display:flex;place-content:center;place-items:center;margin-right:2rem}
+.card__details .products-box .product__details h2{color:var(--dark-blue);font-weight:700;font-size:1.7rem;margin-bottom:.6rem}
+.card__details .products-box .product a{margin-left:auto;margin-right:.4rem;font-size:1.4rem;color:var(--light-blue);font-weight:700;transition:all .1s}
+@media screen and (max-width:320px){
+.card__details .products-box .product a{margin:0}
+}
+.card__details .products-box .product a:hover{color:rgba(72,41,224,.76)}
+.card__details .btns-box .btn{display:block;text-align:center;font-weight:900;text-decoration:none;letter-spacing:1px;padding:1.5rem;border-radius:1.5rem}
+.card__details .btns-box .btn--full{background-color:var(--light-blue);color:var(--white-2);font-size:1.5rem;margin-bottom:1.3rem;box-shadow:0 32px 28px -22px #1f2f56;transition:all .1s}
+.card__details .btns-box .btn--full:hover{background-color:rgba(72,41,224,.76)}
+.card__details .btns-box .btn--ghost{color:var(--dark);font-size:1.4rem;transition:all .1s}
+.card__details .btns-box .btn--ghost:hover{color:var(--dark-blue)}
+@media screen and (max-width:768px){
+html{font-size:56.25%}
+}
+@media screen and (max-width:500px){
+html{font-size:50%}
+body{padding:0 2.7rem}
+}
+@media screen and (max-width:400px){
+html{font-size:49%}
+body{padding:0 2.4rem}
+}
+@media screen and (max-width:320px){
+html{font-size:48%}
+body{padding:2.4rem}
+}
