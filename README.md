@@ -11,7 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/challenge-completed-by-using-css-grid-me6DQV5_g)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ordersummarycard-completed-using-sass-and-flexbox-kmg4MpybJ)
 - Live Site URL: [live site URL](https://ordersummarycard.vercel.app/)
 ### Built with
 
